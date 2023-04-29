@@ -1,0 +1,190 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "superheroes": [
+    {
+      "id": 1,
+      "name": "Batman",
+      "publisher": "DC Comics",
+      "alter_ego": "Bruce Wayne"
+    },
+    {
+      "id": 2,
+      "name": "Superman",
+      "publisher": "DC Comics",
+      "alter_ego": "Kal-El"
+    },
+    {
+      "id": 3,
+      "name": "Wonder Woman",
+      "publisher": "DC Comics",
+      "alter_ego": "Princess Diana"
+    },
+    {
+      "name": "The Flash",
+      "alter_ego": "Barry Allen",
+      "id": 4
+    },
+    {
+      "name": "Shazam",
+      "alter_ego": "Billy Batson",
+      "id": 5
+    },
+    {
+      "name": "Cyborg",
+      "alter_ego": "Vic Stone",
+      "id": 6
+    },
+    {
+      "name": "Aquaman",
+      "alter_ego": "Arthur Curry",
+      "id": 7
+    }
+  ],
+  "friends": [
+    {
+      "id": 1,
+      "name": "Chandler Bing",
+      "age": 30
+    },
+    {
+      "id": 2,
+      "name": "Joey Tribbiani",
+      "age": 30
+    },
+    {
+      "id": 3,
+      "name": "Monica Geller",
+      "age": 30
+    },
+    {
+      "id": 4,
+      "name": "Rachel Green",
+      "age": 30
+    },
+    {
+      "id": 5,
+      "name": "Ross Geller",
+      "age": 30
+    },
+    {
+      "id": 6,
+      "name": "Phoebe Buffay",
+      "age": 30
+    }
+  ],
+  "users": [
+    {
+      "id": "deez@nuts.com",
+      "name": "Leanne Graham",
+      "channelId": "sigmaMale"
+    }
+  ],
+  "channels": [
+    {
+      "id": "sigmaMale",
+      "courses": [
+        "misogyny",
+        "racism",
+        "homophobia"
+      ]
+    }
+  ],
+  "colors": [
+    {
+      "id": 1,
+      "label": "Red"
+    },
+    {
+      "id": 2,
+      "label": "Blue"
+    },
+    {
+      "id": 3,
+      "label": "Green"
+    },
+    {
+      "id": 4,
+      "label": "Yellow"
+    },
+    {
+      "id": 5,
+      "label": "Black"
+    },
+    {
+      "id": 6,
+      "label": "White"
+    },
+    {
+      "id": 7,
+      "label": "Purple"
+    },
+    {
+      "id": 8,
+      "label": "Orange"
+    },
+    {
+      "id": 9,
+      "label": "Pink"
+    },
+    {
+      "id": 10,
+      "label": "Brown"
+    },
+    {
+      "id": 11,
+      "label": "Grey"
+    },
+    {
+      "id": 12,
+      "label": "Cyan"
+    },
+    {
+      "id": 13,
+      "label": "Magenta"
+    },
+    {
+      "id": 14,
+      "label": "Lime"
+    },
+    {
+      "id": 15,
+      "label": "Teal"
+    },
+    {
+      "id": 16,
+      "label": "Lavender"
+    },
+    {
+      "id": 17,
+      "label": "Maroon"
+    },
+    {
+      "id": 18,
+      "label": "Navy"
+    },
+    {
+      "id": 19,
+      "label": "Olive"
+    },
+    {
+      "id": 20,
+      "label": "Silver"
+    }
+  ]
+}
