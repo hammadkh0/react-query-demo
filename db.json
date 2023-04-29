@@ -54,6 +54,11 @@
       "name": "Aquaman",
       "alter_ego": "Arthur Curry",
       "id": 7
+    },
+    {
+      "name": "Joken",
+      "alter_ego": "Unknown",
+      "id": 8
     }
   ],
   "friends": [

@@ -1,4 +1,4 @@
-import axios from "axios";
+import { request } from "../utils/axios-utils";
 import { useQuery, useMutation, useQueryClient } from "react-query";
 
 export const useSuperHeroesData = (onSuccess, onError) => {
@@ -10,7 +10,7 @@ export const useSuperHeroesData = (onSuccess, onError) => {
   return useQuery(
     ["superheroes"],
     () => {
-      return axios.get("http://localhost:3001/superheroes");
+      return request({ url: "/superheroes" });
     },
     {
       cacheTime: 1000 * 60 * 5, // 5 minutes (by default).
@@ -95,7 +95,7 @@ export const useAddSuperheroDatOptimistic = () => {
   const queryClient = useQueryClient();
   return useMutation(
     (superHero) => {
-      return axios.post("http://localhost:3001/superheroes", superHero);
+      return request({ url: "/superheroes", method: "POST", data: superHero });
     },
     {
       onMutate: async (newHero) => {

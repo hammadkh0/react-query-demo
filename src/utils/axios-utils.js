@@ -2,7 +2,7 @@ import axios from "axios";
 
 const token = "token"; // get token from local storage or where ever you have stored
 
-const client = axios.create({ baseURL: "http://localhost:3001/api" });
+const client = axios.create({ baseURL: "http://localhost:3001" });
 
 export const request = ({ ...options }) => {
   client.defaults.headers.common.Authorization = `Bearer ${token}`;
